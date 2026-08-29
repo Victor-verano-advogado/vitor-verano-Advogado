@@ -18,7 +18,8 @@ Website institucional e plataforma de atendimento jurídico 100% online desenvol
 * **HTML5:** Estrutura semântica das seções.
 * **CSS3:** Estilização com variáveis CSS (`:root`), Grid Layout, Flexbox e efeitos de transição.
 * **JavaScript (ES6+):** Manipulação da DOM, integração com API do WhatsApp (`wa.me`) e persistência de dados local (`localStorage`).
-
+---
+nosso site github : https://victor-verano-advogado.github.io/vitor-verano-Advogado/
 ---
 
 ## 📂 Estrutura de Arquivos
