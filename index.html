@@ -193,7 +193,26 @@
         .contact-box h2 {
             font-weight: normal;
             font-size: 2rem;
-            margin-bottom: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Estilo para a caixinha da Pfoto.png */
+        .photo-card {
+            display: inline-block;
+            background-color: var(--bg-dark);
+            border: 1px solid var(--border-color);
+            border-top: 2px solid var(--accent-red);
+            padding: 8px;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+        }
+
+        .photo-card img {
+            max-width: 180px;
+            height: auto;
+            border-radius: 4px;
+            display: block;
         }
 
         .contact-box p {
@@ -245,6 +264,12 @@
 
     <section class="contact-box" id="contato">
         <h2>Precisa de orientação jurídica?</h2>
+
+        <!-- Caixinha com a foto profissional -->
+        <div class="photo-card">
+            <img src="Pfoto.png" alt="Dr. Victor Verano">
+        </div>
+
         <p>Agende uma consulta online diretamente com o Dr. Victor Verano pelo WhatsApp.</p>
         <a href="https://wa.me/5563999144077" class="cta-button" target="_blank">Iniciar Atendimento pelo WhatsApp</a>
     </section>
