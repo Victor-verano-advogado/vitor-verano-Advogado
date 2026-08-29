@@ -46,6 +46,16 @@
             text-transform: uppercase;
             letter-spacing: 1.5px;
             text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        /* Estilo aplicado para a logo.png */
+        .logo img {
+            height: 40px;
+            width: auto;
+            object-fit: contain;
         }
 
         .logo span {
@@ -205,6 +215,8 @@
 
     <header>
         <a href="#" class="logo">
+            <!-- Imagem da logo adicionada ao topo -->
+            <img src="logo.png" alt="Logo Dr. Victor Verano">
             Dr. Victor Verano <span>| Advocacia</span>
         </a>
         <nav>
@@ -223,11 +235,13 @@
         <a href="https://wa.me/5563999144077" class="cta-button" target="_blank">Falar no WhatsApp</a>
     </main>
 
+    <section class="areas" id="atuacao">
         <div class="card">
-            <h3>Advocacia e Consultoria uridica</h3>
+            <h3>Advocacia e Consultoria Jurídica</h3>
             <p>Assessoria jurídica preventiva, análise e elaboração de contratos, proteção patrimonial e suporte a negócios.</p>
         </div>
-       
+    </section>
+
     <section class="contact-box" id="contato">
         <h2>Precisa de orientação jurídica?</h2>
         <p>Agende uma consulta online diretamente com o Dr. Victor Verano pelo WhatsApp.</p>
