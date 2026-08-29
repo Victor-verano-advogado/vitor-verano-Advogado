@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. Victor Verano | Advocacia & Consultoria Jurídica</title>
     
-    <!-- Esta linha altera o ícone da aba do navegador (substitui o planetinha) -->
     <link rel="icon" type="image/png" href="logo.png">
 
     <style>
@@ -196,7 +195,6 @@
             margin-bottom: 1.5rem;
         }
 
-        /* Estilo para a caixinha da Pfoto.png */
         .photo-card {
             display: inline-block;
             background-color: var(--bg-dark);
@@ -229,6 +227,56 @@
             color: var(--text-muted);
             font-size: 0.85rem;
             margin-top: 6rem;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                gap: 1rem;
+                padding: 1.2rem 1rem;
+                text-align: center;
+            }
+
+            .logo {
+                font-size: 1.1rem;
+            }
+
+            nav a {
+                margin: 0 0.5rem;
+                font-size: 0.75rem;
+            }
+
+            .hero {
+                margin: 2.5rem auto 2.5rem;
+                padding: 0 1rem;
+            }
+
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+
+            .hero p {
+                font-size: 0.95rem;
+            }
+
+            .contact-box {
+                margin: 2rem 1rem;
+                padding: 2rem 1.2rem;
+            }
+
+            .contact-box h2 {
+                font-size: 1.5rem;
+            }
+
+            .photo-card img {
+                max-width: 140px;
+            }
+
+            .cta-button {
+                display: block;
+                width: 100%;
+                padding: 0.9rem 1rem;
+            }
         }
     </style>
 </head>
@@ -265,7 +313,6 @@
     <section class="contact-box" id="contato">
         <h2>Precisa de orientação jurídica?</h2>
 
-        <!-- Caixinha com a foto profissional -->
         <div class="photo-card">
             <img src="Pfoto.png" alt="Dr. Victor Verano">
         </div>
